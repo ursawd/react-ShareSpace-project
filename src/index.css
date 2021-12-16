@@ -5,7 +5,8 @@
   font-family: "Bebas Neue";
 }
 
-p {
+p,
+a {
   font-family: "Work Sans";
 }
 .yellow-background {
