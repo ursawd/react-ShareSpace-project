@@ -1,13 +1,12 @@
-import "./App.css";
 import "bootstrap\\dist\\css\\bootstrap.min.css";
-import RowSection from "./components/RowSection";
-
+import "bootstrap\\dist\\js\\bootstrap.bundle.min.js";
+import "@fontsource/work-sans";
+import "@fontsource/bebas-neue";
+import Main from "./components/Main";
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-primary">APP COMPONENT</h1>
-      <RowSection height="50vh" bColor="red" />
-      <RowSection height="20vh" bColor="blue" />
+    <div>
+      <Main />
     </div>
   );
 }
