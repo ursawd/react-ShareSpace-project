@@ -6,7 +6,7 @@ export default function Button(props) {
   };
   return (
     <div>
-      <button style={style} class="btn btn-lg py-3 px-4 fs-3">
+      <button style={style} className="btn btn-lg py-3 px-4 fs-3">
         {props.btnText}
       </button>
     </div>

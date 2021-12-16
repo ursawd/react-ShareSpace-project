@@ -14,8 +14,8 @@ export default function Footer() {
               509-555-9586
             </a>
             <br />
-            <i class="fab fa-instagram fa-lg mt-4"></i>
-            <i class="fab fa-facebook fa-lg p-2"></i>{" "}
+            <i className="fab fa-instagram fa-lg mt-4"></i>
+            <i className="fab fa-facebook fa-lg p-2"></i>{" "}
           </div>
         </div>
         <div className="col-md-5 row">

@@ -12,3 +12,6 @@ a {
 .yellow-background {
   background-color: #eec320;
 }
+.overlay {
+  background-color: rgba(0, 0, 0, 0.2);
+}

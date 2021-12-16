@@ -4,13 +4,13 @@ import Button from "./Button";
 
 export default function NavBar() {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/">
+    <nav className="navbar navbar-expand-lg navbar-light">
+      <div className="container-fluid">
+        <a className="navbar-brand" href="/">
           <img src={logo} alt="LOGO" />
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -18,37 +18,37 @@ export default function NavBar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto fs-5">
-            <li class="nav-item">
-              <a class="nav-link  text-white" href="/">
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav ms-auto fs-5 overlay">
+            <li className="nav-item">
+              <a className="nav-link  text-white" href="/">
                 Membership
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="/">
+            <li className="nav-item">
+              <a className="nav-link text-white" href="/">
                 Suites
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="/">
+            <li className="nav-item">
+              <a className="nav-link text-white" href="/">
                 Drop In
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link  text-white" href="/">
+            <li className="nav-item">
+              <a className="nav-link  text-white" href="/">
                 Community
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link  text-white" href="/">
+            <li className="nav-item">
+              <a className="nav-link  text-white" href="/">
                 Contact
               </a>
             </li>
           </ul>
-          <i class="fas fa-cart-plus fa-lg text-white me-3"></i>
+          <i className="fas fa-cart-plus fa-lg text-white me-3"></i>
           <Button btnText="BOOK A TOUR" />
         </div>
       </div>
