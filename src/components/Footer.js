@@ -1,10 +1,11 @@
 import React from "react";
 import RowSection from "./RowSection";
+import sscolors from "../sscolors";
 
 export default function Footer() {
   return (
     <div className=" ">
-      <RowSection height="50vh" bColor="#EEC320">
+      <RowSection height="50vh" bColor={sscolors.yellow}>
         <div className="col-md-7 ms-2">
           <h3 className="display-2 my-5">SHARESPACE COWORKING</h3>
           <div className="fs-5">

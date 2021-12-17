@@ -9,9 +9,9 @@ p,
 a {
   font-family: "Work Sans";
 }
-.yellow-background {
-  background-color: #eec320;
-}
 .overlay {
   background-color: rgba(0, 0, 0, 0.2);
+}
+.navbar-toggler-icon {
+  border: 1px solid black !important;
 }
