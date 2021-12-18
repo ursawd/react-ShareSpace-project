@@ -10,7 +10,6 @@ export default function MyButton(props) {
     padding: "1rem 1.5rem",
     color: "black",
   };
-  console.log(bgColor);
   if (bgColor === sscolors.ltblue) style.color = "white";
   return (
     <Fragment>

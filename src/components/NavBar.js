@@ -26,7 +26,7 @@ export default class NavBar3 extends React.Component {
           </NavbarBrand>
           <NavbarToggler className="" onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ms-auto fs-5 mt-4" navbar>
+            <Nav className="ms-auto fs-5 mt-5" navbar>
               <NavItem>
                 <NavLink className="text-white overlay" href="/">
                   Membership
@@ -57,11 +57,13 @@ export default class NavBar3 extends React.Component {
                   <i className="fas fa-cart-plus"></i>
                 </NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink className="" href="/">
-                  <MyButton>BOOK A TOUR</MyButton>
-                </NavLink>
-              </NavItem>
+              <div style={{ marginTop: "-1.5rem" }} className="">
+                <NavItem>
+                  <NavLink className="" href="/">
+                    <MyButton>BOOK A TOUR</MyButton>
+                  </NavLink>
+                </NavItem>
+              </div>
             </Nav>
           </Collapse>
         </Navbar>
