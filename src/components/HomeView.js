@@ -6,10 +6,23 @@ import mainImage from "./images/open-office-main.jpeg";
 import suitsImage from "./images/coworkingsuites.jpg";
 import sscolors from "../sscolors";
 import MyButton from "./MyButton";
-import MyTypeCard from "./MyTypeCard";
 import { Card, CardText, CardBody, CardTitle } from "reactstrap";
 
-export default function Main() {
+const MyTypeCard = ({ image, title, text }) => {
+  return (
+    <React.Fragment>
+      <Card className="border-0">
+        <img width="100%" src={image} alt="Card image cap" />
+        <CardBody>
+          <CardTitle className="display-6">{title}</CardTitle>
+          <CardText style={{ fontSize: "1.3rem" }}>{text}</CardText>
+        </CardBody>
+      </Card>
+    </React.Fragment>
+  );
+};
+
+export default function HomeView() {
   return (
     <div>
       {/* ---------------------------------------------------------------------------------------- */}
