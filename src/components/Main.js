@@ -34,7 +34,13 @@ export default function Main() {
       </RowSection>
       {/* ---------------------------------------------------------------------------------------- */}
       <RowSection height="100vh" image={suitsImage}>
-        <h3>SUITES</h3>
+        <h2 className=" text-center yellow" style={{ fontSize: "10rem", paddingTop: "6rem" }}>
+          SUITES
+        </h2>
+        <h3 className="display-5 yellow text-center mt-2">Private, Lockable, and perfect for a small team</h3>
+        <div className="mt-5 pt-5 text-center">
+          <MyButton>Availablity</MyButton>
+        </div>
       </RowSection>
       {/* ---------------------------------------------------------------------------------------- */}
       <RowSection height="130vh" bColor={sscolors.ltblue}>
