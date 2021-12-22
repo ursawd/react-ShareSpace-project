@@ -6,6 +6,7 @@ import mainImage from "./images/open-office-main.jpeg";
 import suitsImage from "./images/coworkingsuites.jpg";
 import sscolors from "../sscolors";
 import MyButton from "./MyButton";
+import MyTypeCard from "./MyTypeCard";
 import { Card, CardText, CardBody, CardTitle } from "reactstrap";
 
 export default function Main() {
@@ -29,8 +30,28 @@ export default function Main() {
         </div>
       </RowSection>
       {/* ---------------------------------------------------------------------------------------- */}
-      <RowSection height="110vh">
-        <h2>MEMBERSHIP TYPES</h2>
+      <RowSection height="140vh">
+        <div className="text-center">
+          <h2 className="display-2 mt-5 pt-5">MEMBERSHIP TYPES</h2>
+        </div>
+        <div className="row text-center mt-5 mb-5 pb-5justify-content-center">
+          <div className="col-md-4">
+            <MyTypeCard image="../../assets/images/group+29@2x.jpg" title="DROP IN" text="Starting at $20/day" />
+          </div>
+          <div className="col-md-4">
+            <MyTypeCard image="../../assets/images/group+30@2x.jpg" title="HOT DESK" text="Starting at $70/mo." />
+          </div>
+          <div className="col-md-4">
+            <MyTypeCard
+              image="../../assets/images/group+31@2x.jpg"
+              title="PERMANENT DESK"
+              text="Starting at $375/mo."
+            />
+          </div>
+        </div>
+        <div className="text-center mt-5 pt-5">
+          <MyButton>Details</MyButton>
+        </div>
       </RowSection>
       {/* ---------------------------------------------------------------------------------------- */}
       <RowSection height="100vh" image={suitsImage}>
