@@ -18,7 +18,7 @@ export default function Main() {
       {/* ---------------------------------------------------------------------------------------- */}
       <RowSection height="40vh" bColor={sscolors.yellow}>
         <div className="col-md-6">
-          <h2 className="display-2 mt-5 ps-4">LETS WORK TOGETHER</h2>
+          <h2 className="display-2 mt-5 ps-4">LET'S WORK TOGETHER</h2>
         </div>
         <div className="col-md-6 mb-5">
           <p className="fs-5 mt-5 pe-4">

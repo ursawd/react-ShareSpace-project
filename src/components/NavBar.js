@@ -3,7 +3,7 @@ import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } f
 import MyButton from "./MyButton";
 import logo from "./images/ss-logo.png";
 
-export default class NavBar3 extends React.Component {
+export default class NavBar extends React.Component {
   constructor(props) {
     super(props);
 
