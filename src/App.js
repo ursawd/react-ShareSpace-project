@@ -8,6 +8,8 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import React from "react";
 import NotFound from "./components/NotFound";
 import MembershipView from "./components/MembershipView";
+import SuitesView from "./components/SuitesView";
+import DropinView from "./components/DropinView";
 
 function App() {
   return (
@@ -20,6 +22,14 @@ function App() {
           <Route exact path="/membership">
             <MembershipView />
           </Route>
+
+          <Route exact path="/suites">
+            <SuitesView />
+          </Route>
+          <Route exact path="/dropin">
+            <DropinView />
+          </Route>
+
           <Route path="/">
             <NotFound />
           </Route>

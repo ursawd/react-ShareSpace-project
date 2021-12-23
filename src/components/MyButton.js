@@ -10,7 +10,10 @@ export default function MyButton(props) {
     padding: "1rem 3rem",
     color: "black",
   };
-  if (bgColor === sscolors.ltblue) style.color = "white";
+  if (window.location.href.includes("suites") || window.location.href.includes("dropin")) {
+    style.backgroundColor = sscolors.ltblue;
+  }
+  if (style.backgroundColor === sscolors.ltblue) style.color = "white";
   return (
     <Fragment>
       <Button className="fs-2" style={style}>
