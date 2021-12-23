@@ -7,7 +7,7 @@ export default function MyButton(props) {
   const style = {
     backgroundColor: bgColor,
     fontFamily: "Bebas Neue",
-    padding: "1rem 1.5rem",
+    padding: "1rem 3rem",
     color: "black",
   };
   if (bgColor === sscolors.ltblue) style.color = "white";

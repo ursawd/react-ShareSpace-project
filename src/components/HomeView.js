@@ -36,8 +36,8 @@ export default function HomeView() {
         </div>
         <div className="col-md-6 mb-5">
           <p className="fs-5 mt-5 pe-4">
-            Fellow Coworking is a shared office space designed to foster great work and build community. Ideal for solo
-            workers, growing your business, or starting a new one.
+            ShareSpace Coworking is a shared office space designed to foster great work and build community. Ideal for
+            solo workers, growing your business, or starting a new one.
           </p>
           <MyButton bgColor={sscolors.ltblue}>SIGN ME UP</MyButton>
         </div>

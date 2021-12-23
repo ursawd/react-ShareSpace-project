@@ -18,3 +18,7 @@ a {
 .yellow {
   color: #eec320;
 }
+.mlist > h4 {
+  margin-bottom: 1.75rem;
+  font-size: 2rem;
+}
