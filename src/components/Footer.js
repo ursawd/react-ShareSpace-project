@@ -1,6 +1,7 @@
 import React from "react";
 import RowSection from "./RowSection";
 import sscolors from "../sscolors";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -22,27 +23,27 @@ export default function Footer() {
         <div className="col-md-5 row">
           <div className="col-lg-6 fs-5 mt-5">
             <p className="fs-3">Services</p>
-            <a className="text-dark " href="/">
+            <Link className="text-dark " to="/membership">
               Membership
-            </a>
+            </Link>
             <br />
-            <a className="text-dark mt-2 " href="/">
+            <Link className="text-dark mt-2 " to="/suites">
               Suites
-            </a>
+            </Link>
             <br />
-            <a className="text-dark mt-2" href="/">
+            <Link className="text-dark mt-2" to="/dropin">
               Drop In
-            </a>
+            </Link>
           </div>
           <div className="col-lg-6 fs-5 mt-5">
             <p className="fs-3">Who We Are</p>
-            <a className="text-dark" href="/">
+            <Link className="text-dark" to="/community">
               Community
-            </a>
+            </Link>
             <br />
-            <a className="text-dark mt-2" href="/">
+            <Link className="text-dark mt-2" to="/contact">
               Contact
-            </a>
+            </Link>
           </div>
         </div>
       </RowSection>

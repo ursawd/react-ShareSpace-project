@@ -10,11 +10,13 @@ import NotFound from "./components/NotFound";
 import MembershipView from "./components/MembershipView";
 import SuitesView from "./components/SuitesView";
 import DropinView from "./components/DropinView";
+import ScrollToTop from "./ScrollToTop";
 
 function App() {
   return (
     <Router>
       <React.Fragment>
+        <ScrollToTop />
         <Switch>
           <Route exact path="/">
             <HomeView />
