@@ -4,14 +4,13 @@ import NavBar from "./NavBar";
 import Footer from "./Footer";
 import sscolors from "../sscolors";
 import { Card, CardText, CardBody, CardTitle } from "reactstrap";
-import coworking from "./images/co-working-spaces-beach-bar-panama.jpg";
 import MyButton from "./MyButton";
 
 const MySuiteCard = ({ image, title, text }) => {
   return (
     <React.Fragment>
       <Card className="border-0">
-        <img width="100%" src={image} alt="Card image cap" />
+        <img width="100%" src={image} alt="Card cap" />
         <CardBody>
           <CardTitle className="fs-2">{title}</CardTitle>
           <CardText style={{ fontSize: "1.3rem" }}>{text}</CardText>

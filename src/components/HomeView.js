@@ -12,7 +12,7 @@ const MyTypeCard = ({ image, title, text }) => {
   return (
     <React.Fragment>
       <Card className="border-0">
-        <img width="100%" src={image} alt="Card image cap" />
+        <img width="100%" src={image} alt="Card cap" />
         <CardBody>
           <CardTitle className="display-6">{title}</CardTitle>
           <CardText style={{ fontSize: "1.3rem" }}>{text}</CardText>
@@ -140,7 +140,7 @@ export default function HomeView() {
       </RowSection>
       {/* ---------------------------------------------------------------------------------------- */}
       <RowSection height="120vh">
-        <div className="col-md-6">
+        <div id="contact" className="col-md-6">
           <h2 style={{ marginTop: "5rem" }} className="display-3">
             we can’t wait to meet you
           </h2>

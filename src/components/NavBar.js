@@ -1,5 +1,5 @@
 import React from "react";
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from "reactstrap";
+import { Collapse, Navbar, NavbarToggler, Nav, NavItem, NavLink } from "reactstrap";
 import MyButton from "./MyButton";
 import logo from "./images/ss-logo.png";
 import { NavLink as RNavLink, Link } from "react-router-dom";
