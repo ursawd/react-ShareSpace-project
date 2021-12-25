@@ -11,6 +11,7 @@ import MembershipView from "./components/MembershipView";
 import SuitesView from "./components/SuitesView";
 import DropinView from "./components/DropinView";
 import ScrollToTop from "./ScrollToTop";
+import ContactFormView from "./components/ContactFormView";
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
           </Route>
           <Route exact path="/dropin">
             <DropinView />
+          </Route>
+          <Route exact path="/contact">
+            <ContactFormView />
           </Route>
 
           <Route path="/">
