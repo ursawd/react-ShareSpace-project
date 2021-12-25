@@ -4,7 +4,11 @@
   box-sizing: border-box;
   font-family: "Bebas Neue";
 }
-
+form #formid,
+label {
+  font-family: "Work Sans";
+  font-size: 18px;
+}
 p,
 a {
   font-family: "Work Sans";
@@ -22,4 +26,9 @@ a {
   margin-bottom: 1.75rem;
   font-size: 2rem;
   line-height: 3rem;
+}
+
+.form-group,
+option {
+  font-family: "Work Sans";
 }
