@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import { Button } from "reactstrap";
 import sscolors from "../sscolors";
+import swal from "@sweetalert/with-react";
 
 export default function MyButton(props) {
   const { bgColor = sscolors.yellow, overRide = null } = props;
@@ -22,7 +23,7 @@ export default function MyButton(props) {
 
   return (
     <Fragment>
-      <Button className="fs-2" style={style}>
+      <Button onClick={() => swal("This functionality is not yet implemented")} className="fs-2 " style={style}>
         {props.children}
       </Button>
     </Fragment>

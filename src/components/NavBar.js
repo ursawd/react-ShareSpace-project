@@ -3,6 +3,7 @@ import { Collapse, Navbar, NavbarToggler, Nav, NavItem, NavLink } from "reactstr
 import MyButton from "./MyButton";
 import logo from "./images/ss-logo.png";
 import { NavLink as RNavLink, Link } from "react-router-dom";
+import swal from "@sweetalert/with-react";
 
 export default class NavBar extends React.Component {
   constructor(props) {
@@ -55,13 +56,13 @@ export default class NavBar extends React.Component {
                 </RNavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="text-white p-0 overlay  px-2" style={{ marginTop: "3px" }} href="/">
-                  <i className="fas fa-sm fa-cart-plus"></i>
+                <NavLink className="text-white p-0 overlay  px-2" style={{ marginTop: "3px" }} href="#">
+                  <i onClick={() => swal("Shopping cart coming soon!")} className="fas fa-sm fa-cart-plus"></i>
                 </NavLink>
               </NavItem>
               <div style={{ marginTop: "-1.5rem" }} className="">
                 <NavItem>
-                  <NavLink className="" href="/">
+                  <NavLink className="" href="#">
                     <MyButton>BOOK A TOUR</MyButton>
                   </NavLink>
                 </NavItem>
